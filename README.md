@@ -67,30 +67,30 @@ Diante disso, é notável que um serviço web que é chamado de **RESTful** segu
 <p>São códigos numéricos que indicam o resultado de uma requisição HTTP realizada por um cliente a um servidor. Esses códigos são parte fundamental do protocolo HTTP (Hypertext Transfer Protocol) e são incluídos nas respostas do servidor para comunicar o resultado da requisição ao cliente. Algumas categorias principais de códigos de status HTTP:</p>
 
 - <p>1xx: Informativo<br>
-   Indica que a solicitação foi recebida e o processo continua.</p>
+   Indica que a solicitação foi recebida e o processo continua.</p><br>
 
 - <p>2xx: Sucesso<br>
-   Indica que a ação foi recebida, compreendida e aceita com sucesso.</p>
-   200 OK: A solicitação foi bem-sucedida. O significado exato do sucesso pode variar dependendo do método de solicitação.
-   201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.
-   204 No Content: A solicitação foi bem-sucedida, mas não há conteúdo para enviar no corpo da resposta.
+   Indica que a ação foi recebida, compreendida e aceita com sucesso.</p><br>
+   200 OK: A solicitação foi bem-sucedida. O significado exato do sucesso pode variar dependendo do método de solicitação.<br>
+   201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.<br>
+   204 No Content: A solicitação foi bem-sucedida, mas não há conteúdo para enviar no corpo da resposta.<br>
 
 - <p>3xx: Redirecionamento<br>
    Indica que outras ações devem ser tomadas para concluir a solicitação.</p>
 
 - <p>4xx: Erro do cliente<br>
-   Indica que a solicitação contém sintaxe incorreta ou não pode ser atendida.</p>
-   400 Bad Request: A solicitação não pôde ser entendida ou estava faltando parâmetros obrigatórios.
-   401 Unauthorized: A solicitação requer autenticação do usuário.
-   403 Forbidden: O servidor entendeu a solicitação, mas se recusa a autorizá-la
-   404 Not Found: O recurso solicitado não foi encontrado no servidor.
+   Indica que a solicitação contém sintaxe incorreta ou não pode ser atendida.</p><br>
+   400 Bad Request: A solicitação não pôde ser entendida ou estava faltando parâmetros obrigatórios.<br>
+   401 Unauthorized: A solicitação requer autenticação do usuário.<br>
+   403 Forbidden: O servidor entendeu a solicitação, mas se recusa a autorizá-la<br>
+   404 Not Found: O recurso solicitado não foi encontrado no servidor.<br>
 
 - <p>5xx: Erro do servidor<br>
-    Indica que o servidor não atendeu a uma solicitação aparentemente válida.</p>
-    500 Internal Server Error: O servidor encontrou uma situação inesperada que o impediu de cumprir a solicitação.
-    502 Bad Gateway: O servidor, enquanto agindo como um gateway ou proxy, recebeu uma resposta inválida do servidor upstream.
-    503 Service Unavailable: O servidor não está pronto para lidar com a solicitação. Geralmente, isso é temporário e pode ser devido a sobrecarga do servidor ou manutenção.
-    504 Gateway Timeout: O servidor, enquanto atua como um gateway ou proxy, não recebeu uma resposta oportuna do servidor upstream ou algum outro servidor necessário para completar a solicitação.
+    Indica que o servidor não atendeu a uma solicitação aparentemente válida.</p><br>
+    500 Internal Server Error: O servidor encontrou uma situação inesperada que o impediu de cumprir a solicitação.<br>
+    502 Bad Gateway: O servidor, enquanto agindo como um gateway ou proxy, recebeu uma resposta inválida do servidor upstream.<br>
+    503 Service Unavailable: O servidor não está pronto para lidar com a solicitação. Geralmente, isso é temporário e pode ser devido a sobrecarga do servidor ou manutenção.<br>
+    504 Gateway Timeout: O servidor, enquanto atua como um gateway ou proxy, não recebeu uma resposta oportuna do servidor upstream ou algum outro servidor necessário para completar a solicitação.<br>
 
  ---
 
