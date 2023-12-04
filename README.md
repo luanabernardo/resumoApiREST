@@ -70,7 +70,7 @@ Diante disso, é notável que um serviço web que é chamado de **RESTful** segu
    Indica que a solicitação foi recebida e o processo continua.</p>
 
 - <p>2xx: Sucesso<br>
-   Indica que a ação foi recebida, compreendida e aceita com sucesso.
+   Indica que a ação foi recebida, compreendida e aceita com sucesso.<br>
    200 OK: A solicitação foi bem-sucedida. O significado exato do sucesso pode variar dependendo do método de solicitação.<br>
    201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.<br>
    204 No Content: A solicitação foi bem-sucedida, mas não há conteúdo para enviar no corpo da resposta.<br></p>
