@@ -6,14 +6,25 @@
  
 ## Diferenças entre REST e RESTFul
 
-### REST -  Refere-se aos princípios teóricos e fundamentais da arquitetura.
 
+### REST -  Refere-se aos princípios teóricos e fundamentais da arquitetura.
+- Nível de abstração:Refere-se a um estilo arquitetural de alto nível, fornecendo diretrizes gerais para o design de sistemas distribuídos.
+- Flexibilidade:Oferece maior flexibilidade ao projetista, permitindo escolhas de implementação mais livres.
+- identificação de recursos:Coloca ênfase na identificação clara de recursos por meio de URIs, mas não define regras estritas sobre como essas URIs devem ser estruturadas.
+- Estado do Cliente: É um estilo stateless, o que significa que cada requisição do cliente para o servidor contém toda a informação necessária para entender e processar a requisição.
+- Manipulação de Recursos: Não define como os recursos devem ser manipulados, deixando essa decisão para o projetista do sistema.
+- Padrões de Mensagens:Permite o uso de diferentes formatos de mensagem, como XML, JSON, HTML, entre outros.
 - É um estilo arquitetural que define um conjunto de princípios para projetar serviços web.
 - Envolve princípios teóricos que orientam como os recursos são definidos e manipulados em um sistema distribuído.
 - Pode ser considerado mais como um conjunto de diretrizes e restrições do que uma implementação específica.
 
 ### RESTFul - Descreve implementações específicas que seguem esses princípios.
-
+- Nível de abstração:Representa a implementação concreta dessas diretrizes em um serviço web específico, aplicando os princípios do REST de maneira prática.
+- Flexibilidade: Envolve uma abordagem mais orientada por convenções, incentivando práticas consistentes e padronizadas para facilitar a compreensão e a interoperabilidade.
+- identificação de recursos:Geralmente segue convenções específicas para a criação de URIs, tornando-as mais previsíveis e semânticas.
+- Estado do Cliente:Mantém a statelessness, mas a implementação pode envolver estratégias para gerenciar o estado do cliente, como sessões, quando necessário.
+- Manipulação de Recursos:Implementa maneiras específicas de manipular recursos, seguindo as boas práticas do REST.
+- Padrões de Mensagens:Geralmente adere a um formato de mensagem específico, como JSON, para promover consistência.
 - Refere-se à aplicação efetiva dos princípios REST na implementação de um serviço web.
 - Implementa adequadamente conceitos como identificação de recursos, utilização correta dos métodos HTTP e suporte a diferentes representações de recursos.
 - O termo "RESTful" é muitas vezes usado para descrever sistemas ou serviços que seguem os princípios do REST.
