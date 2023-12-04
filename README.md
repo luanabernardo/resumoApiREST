@@ -67,10 +67,10 @@ Diante disso, é notável que um serviço web que é chamado de **RESTful** segu
 <p>São códigos numéricos que indicam o resultado de uma requisição HTTP realizada por um cliente a um servidor. Esses códigos são parte fundamental do protocolo HTTP (Hypertext Transfer Protocol) e são incluídos nas respostas do servidor para comunicar o resultado da requisição ao cliente. Algumas categorias principais de códigos de status HTTP:</p>
 
 - <p>1xx: Informativo<br>
-   Indica que a solicitação foi recebida e o processo continua.</p><br>
+   Indica que a solicitação foi recebida e o processo continua.</p>
 
 - <p>2xx: Sucesso<br>
-   Indica que a ação foi recebida, compreendida e aceita com sucesso.</p><br>
+   Indica que a ação foi recebida, compreendida e aceita com sucesso.</p>
    200 OK: A solicitação foi bem-sucedida. O significado exato do sucesso pode variar dependendo do método de solicitação.<br>
    201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.<br>
    204 No Content: A solicitação foi bem-sucedida, mas não há conteúdo para enviar no corpo da resposta.<br>
@@ -78,14 +78,14 @@ Diante disso, é notável que um serviço web que é chamado de **RESTful** segu
 - <p>3xx: Redirecionamento<br>
    Indica que outras ações devem ser tomadas para concluir a solicitação.</p>
 
-- <p>4xx: Erro do cliente<br>
+- <p>4xx: Erro do cliente
    Indica que a solicitação contém sintaxe incorreta ou não pode ser atendida.</p><br>
    400 Bad Request: A solicitação não pôde ser entendida ou estava faltando parâmetros obrigatórios.<br>
    401 Unauthorized: A solicitação requer autenticação do usuário.<br>
    403 Forbidden: O servidor entendeu a solicitação, mas se recusa a autorizá-la<br>
    404 Not Found: O recurso solicitado não foi encontrado no servidor.<br>
 
-- <p>5xx: Erro do servidor<br>
+- <p>5xx: Erro do servidor
     Indica que o servidor não atendeu a uma solicitação aparentemente válida.</p><br>
     500 Internal Server Error: O servidor encontrou uma situação inesperada que o impediu de cumprir a solicitação.<br>
     502 Bad Gateway: O servidor, enquanto agindo como um gateway ou proxy, recebeu uma resposta inválida do servidor upstream.<br>
