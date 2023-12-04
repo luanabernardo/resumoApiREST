@@ -71,15 +71,26 @@ Diante disso, é notável que um serviço web que é chamado de **RESTful** segu
 
 - <p>2xx: Sucesso<br>
    Indica que a ação foi recebida, compreendida e aceita com sucesso.</p>
+   200 OK: A solicitação foi bem-sucedida. O significado exato do sucesso pode variar dependendo do método de solicitação.
+   201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.
+   204 No Content: A solicitação foi bem-sucedida, mas não há conteúdo para enviar no corpo da resposta.
 
 - <p>3xx: Redirecionamento<br>
    Indica que outras ações devem ser tomadas para concluir a solicitação.</p>
 
 - <p>4xx: Erro do cliente<br>
    Indica que a solicitação contém sintaxe incorreta ou não pode ser atendida.</p>
+   400 Bad Request: A solicitação não pôde ser entendida ou estava faltando parâmetros obrigatórios.
+   401 Unauthorized: A solicitação requer autenticação do usuário.
+   403 Forbidden: O servidor entendeu a solicitação, mas se recusa a autorizá-la
+   404 Not Found: O recurso solicitado não foi encontrado no servidor.
 
 - <p>5xx: Erro do servidor<br>
     Indica que o servidor não atendeu a uma solicitação aparentemente válida.</p>
+    500 Internal Server Error: O servidor encontrou uma situação inesperada que o impediu de cumprir a solicitação.
+    502 Bad Gateway: O servidor, enquanto agindo como um gateway ou proxy, recebeu uma resposta inválida do servidor upstream.
+    503 Service Unavailable: O servidor não está pronto para lidar com a solicitação. Geralmente, isso é temporário e pode ser devido a sobrecarga do servidor ou manutenção.
+    504 Gateway Timeout: O servidor, enquanto atua como um gateway ou proxy, não recebeu uma resposta oportuna do servidor upstream ou algum outro servidor necessário para completar a solicitação.
 
  ---
 
